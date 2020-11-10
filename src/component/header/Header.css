@@ -1,0 +1,29 @@
+.header{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 15px 20px;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+
+
+}
+
+.header__gmail{
+    padding-right: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    color: rgb(71, 70, 70);
+
+
+}
+
+.header__pic{
+    cursor: pointer;
+    font-size: 14px;
+    color: rgb(71, 70, 70);
+
+
+}

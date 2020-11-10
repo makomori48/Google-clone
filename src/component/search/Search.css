@@ -1,0 +1,129 @@
+.search{
+    
+    justify-content: center;
+}
+
+.ggimg{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.ggimg > img {
+    height: 150px;
+    width: 300px;
+    object-fit: contain;
+    
+}
+
+.search__bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 45px ;
+    width: 75vw;
+    max-width: 575px;
+    border-radius: 25px;
+    place-content: center;
+    border: 0.2px solid rgb(197, 195, 195);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.search__icon{
+    position: absolute;
+    left: 15px;
+    color: gray;
+}
+
+.search__input > input{
+    width: 60vh;
+    background: transparent;
+    margin-right: 50px;
+    border: none;
+    outline-width: 50px;
+    height: 35px;
+    
+}
+
+.search__input :focus {
+    outline: none;
+}
+
+.search__keyb{
+    position: absolute;
+    right: 45px ;
+    color: gray;
+    cursor: pointer;
+   
+}
+
+.search__mic{
+    position: absolute;
+    right: 15px ;
+    color: gray;
+    cursor: pointer;
+}
+
+.bt__container{
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+
+}
+
+.btn1 > button {
+    width: 140px;
+    height: 36px;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    margin-right: 10px;
+    cursor: pointer;
+
+    color: rgb(95, 95, 95);
+
+    border: 1px solid rgb(236, 234, 231);
+    outline: none;
+}
+
+.btn2 > button{
+    width: 140px;
+    height: 36px;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    color: rgb(95, 95, 95);
+
+    border: 1px solid rgb(236, 234, 231);
+    cursor: pointer;
+
+    outline: none;
+}
+
+.btn1 :hover{
+    border: 1px solid rgb(196, 195, 195);
+    color: rgb(39, 39, 39) ;
+}
+.btn2 :hover{
+    border: 1px solid rgb(196, 195, 195);
+
+    color: rgb(39, 39, 39) ;
+}
+
+.ptext{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    color: rgb(49, 48, 48);
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .search__input > input{
+        width: 45vw;
+    }
+  }
+
